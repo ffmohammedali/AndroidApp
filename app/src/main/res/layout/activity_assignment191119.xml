@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".assignment191119.implicitIntentAssignment">
+
+    <EditText
+        android:id="@+id/editweb"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="http://android.com"
+
+        />
+
+    <Button
+        android:id="@+id/buttonweb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:padding="10dp"
+
+        android:text=" open website" />
+
+
+    <EditText
+        android:id="@+id/editlocation"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Golden bridge gate"
+
+        />
+
+    <Button
+        android:id="@+id/buttonlocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:padding="10dp"
+        android:text=" open location"
+
+        />
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="life in  a metro"
+
+        />
+
+    <Button
+        android:id="@+id/buttontext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:padding="10dp"
+        android:text=" share this text"
+
+        />
+
+</LinearLayout>
